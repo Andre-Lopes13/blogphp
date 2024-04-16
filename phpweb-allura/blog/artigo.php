@@ -20,7 +20,7 @@
             <?php echo $artigos['titulo']; ?>
         </h1>
         <p>
-            <?php echo $artigos['conteudo']; ?>
+            <?php echo nl2br($artigos['conteudo']); ?>
         </p>
         <div>
             <a class="botao botao-block" href="index.php">Voltar</a>
